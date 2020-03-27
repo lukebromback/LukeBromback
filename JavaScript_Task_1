@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Javascript task 1</h2>
+
+<p id="demo"></p>
+
+<script>
+var name = "Luke Bromback" ;
+var classes = ["Javascript", "HTML", "C#" ];
+var i;
+var g;
+var output = "";
+for (i=1; i<=200; i++) {
+	g=i%2;
+	if(g==1) output += i + " ";
+    text = output;
+}
+
+document.getElementById("demo").innerHTML = text;
+	
+</script>
+
+</body>
+</html>
